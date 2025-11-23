@@ -180,7 +180,7 @@ docker pull huangjunsen/xiaozhi-mcphub:latest
 
 ```bash
 # Khởi động các container ở chế độ background
-docker-compose up -d
+docker compose up -d
 
 # Chờ khoảng 30 giây để database khởi động hoàn tất
 ```
@@ -189,20 +189,20 @@ docker-compose up -d
 
 ```bash
 # Kiểm tra các container đang chạy
-docker-compose ps
+docker compose ps
 
 # Hoặc xem chi tiết hơn
 docker ps
 
 # Xem logs của tất cả services
-docker-compose logs
+docker compose logs
 
 # Xem logs realtime (Ctrl+C để thoát)
-docker-compose logs -f
+docker compose logs -f
 
 # Xem logs của một service cụ thể
-docker-compose logs mcphub
-docker-compose logs db
+docker compose logs mcphub
+docker compose logs db
 ```
 
 ### Bước 11: Kiểm tra kết nối

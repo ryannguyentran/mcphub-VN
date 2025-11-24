@@ -27,9 +27,9 @@
 cd xiaozhi-mcphub
 
 # Tải file scripts (thay URL bằng link file thực tế từ releases)
-wget https://github.com/ryannguyentran/mcphub-VN/releases/download/mcphub/5tools.zip
+wget https://github.com/ryannguyentran/mcphub-VN/releases/download/mcphub/4tools.zip
 # Hoặc dùng curl
-curl -L -O https://github.com/ryannguyentran/mcphub-VN/releases/download/mcphub/5tools.zip
+curl -L -O https://github.com/ryannguyentran/mcphub-VN/releases/download/mcphub/4tools.zip
 ```
 
 ---
@@ -54,15 +54,15 @@ mkdir -p scripts
 
 ```bash
 # Giải nén file zip vào thư mục scripts
-sudo unzip 5tools.zip -d scripts/
+sudo unzip 4tools.zip -d scripts/
 
 # Hoặc nếu file là tar.gz
-tar -xzf 5tools.tar.gz -C scripts/
+tar -xzf 4tools.tar.gz -C scripts/
 ```
 
 ### Trên Windows:
 
-1. Click phải vào file `scripts.zip`
+1. Click phải vào file `4tools.zip`
 2. Chọn **"Extract All..."** hoặc **"Giải nén tất cả..."**
 3. Chọn đường dẫn đích: `xiaozhi-mcphub\scripts\`
 4. Click **"Extract"** hoặc **"Giải nén"**
@@ -71,7 +71,7 @@ tar -xzf 5tools.tar.gz -C scripts/
 
 ```bash
 # Giải nén file zip
-unzip 5tools.zip -d scripts/
+unzip 4tools.zip -d scripts/
 
 # Hoặc double-click file zip trong Finder và di chuyển vào thư mục scripts
 ```

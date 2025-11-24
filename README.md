@@ -5,7 +5,9 @@
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 > **Dành cho người mới bắt đầu - Hướng dẫn từ A đến Z**
-
+> 
+***Account mặc định MCP HUB: admin / admin123
+> 
 Tài liệu này hướng dẫn chi tiết cách cài đặt môi trường và triển khai ứng dụng **XiaoZhi MCP Hub** theo 2 phương pháp:
 
 1. **Network Host** - Chạy trực tiếp trên mạng máy chủ (Dễ kết nối, hiệu năng cao) ⚡

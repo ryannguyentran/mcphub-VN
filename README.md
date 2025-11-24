@@ -127,6 +127,7 @@ services:
       # JWT_SECRET: "hay-thay-doi-chuoi-nay-khi-chay-that"
     volumes:
       - appdata:/app/data
+      - ./script:/app/script
 ```
 
 **Lưu file:** Nhấn `Ctrl+O` → `Enter` để ghi, và `Ctrl+X` để thoát.
@@ -214,6 +215,7 @@ services:
       SMART_ROUTING_ENABLED: "false"
     volumes:
       - appdata:/app/data
+      - ./script:/app/script
 ```
 
 ### 2. Cập nhật lại container

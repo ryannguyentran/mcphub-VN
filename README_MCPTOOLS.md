@@ -27,10 +27,9 @@
 cd xiaozhi-mcphub
 
 # Tải file scripts (thay URL bằng link file thực tế từ releases)
-wget https://github.com/ryannguyentran/mcphub-VN/releases/download/mcphub/scripts.zip
-
+wget https://github.com/ryannguyentran/mcphub-VN/releases/download/mcphub/5tools.zip
 # Hoặc dùng curl
-curl -L -O https://github.com/ryannguyentran/mcphub-VN/releases/download/mcphub/scripts.zip
+curl -L -O https://github.com/ryannguyentran/mcphub-VN/releases/download/mcphub/5tools.zip
 ```
 
 ---

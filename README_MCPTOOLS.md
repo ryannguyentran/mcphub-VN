@@ -116,6 +116,8 @@ sudo docker compose restart
 # Hoặc dừng và khởi động lại hoàn toàn
 sudo docker compose down
 sudo docker compose up -d
+# Kiểm tra scripts đã tồn tại trong container hay chưa
+sudo docker exec <idscontainer> ls -l /app/scripts
 ```
 
 ---

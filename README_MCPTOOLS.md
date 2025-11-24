@@ -54,10 +54,10 @@ mkdir -p scripts
 
 ```bash
 # Giải nén file zip vào thư mục scripts
-sudo unzip scripts.zip -d scripts/
+sudo unzip 5tools.zip -d scripts/
 
 # Hoặc nếu file là tar.gz
-tar -xzf scripts.tar.gz -C scripts/
+tar -xzf 5tools.tar.gz -C scripts/
 ```
 
 ### Trên Windows:
@@ -71,7 +71,7 @@ tar -xzf scripts.tar.gz -C scripts/
 
 ```bash
 # Giải nén file zip
-unzip scripts.zip -d scripts/
+unzip 5tools.zip -d scripts/
 
 # Hoặc double-click file zip trong Finder và di chuyển vào thư mục scripts
 ```

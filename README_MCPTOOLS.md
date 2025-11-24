@@ -54,7 +54,7 @@ mkdir -p scripts
 
 ```bash
 # Giải nén file zip vào thư mục scripts
-unzip scripts.zip -d scripts/
+sudo unzip scripts.zip -d scripts/
 
 # Hoặc nếu file là tar.gz
 tar -xzf scripts.tar.gz -C scripts/
